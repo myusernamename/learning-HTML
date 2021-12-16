@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Vollkorn:ital@1&display=swap');
+
+*{box-sizing: border-box;}
+
+html{
+  background-color: #FFFFFF;
+  font-family: Roboto;
+  display: flex;
+}
+
+
+               h1{
+                  color:#FFFFFF;
+                 }
+
+               h2{
+                  color: #405282;
+                  }
+
+                p{
+                  color: #808080;
+;
+;
+                  }
+
+                hr{
+                  border-top: 1px solid blue;
+                }
+
+.frame_1{
+  float: left;
+  margin: 495px 200px 200px;
+  width: 350px;
+  height: auto;
+}
+
+.frame_1 .inputs .header_top{
+  text-align: center;
+}
+
+
+        .above1{filter: gray;
+                -webkit-filter: grayscale(1);
+                 filter: grayscale(1);
+                 cursor: pointer;}
+
+              .above1:hover{
+                 -webkit-filter: grayscale(0);
+                 filter: none;
+                 transition: 1s;}
+
+            .above2{  filter: gray;
+                      -webkit-filter: grayscale(1);
+                      filter: grayscale(1);
+                      cursor: pointer;}
+
+                    .above2:hover{
+                      -webkit-filter: grayscale(0);
+                       filter: none;
+                       transition: 1s;}
+
+            .above3{  filter: gray;
+                      -webkit-filter: grayscale(1);
+                      filter: grayscale(1);}
+
+                      .above3:hover{
+                        -webkit-filter: grayscale(0);
+                        filter: none;
+                        transition: 1s;
+                      }
+
+           .above4{  filter: gray;
+                     -webkit-filter: grayscale(1);
+                      filter: grayscale(1);
+                      cursor: pointer;}
+
+                      .above4:hover{
+                        -webkit-filter: grayscale(0);
+                        filter: none;
+                        transition: 1s;
+
+                      }
+
+           .above5{  filter: gray;
+                    -webkit-filter: grayscale(1);
+                    filter: grayscale(1);
+                  cursor: pointer;}
+
+                    .above5:hover{
+                      -webkit-filter: grayscale(0);
+                      filter: none;
+                      transition: 1.2s;
+                    }
+
+.box{
+  float: left;
+  margin-right: 10px;
+  /* width: 15px;
+   height: 15px;
+   border: 1px solid #7F7F7F;*/
+ box-sizing: border-box;
+ border-radius: 5px;
+ cursor: pointer;
+}*
+
+.button{
+  background-color: #405282;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color:#41C1DC;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.frame_2{
+  float: right;
+  margin-top: 390px;
+  margin-left: -50px;
+}
